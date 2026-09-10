@@ -1,4 +1,5 @@
 import heroImage from "../assets/hero.webp";
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
@@ -16,13 +17,13 @@ function Home() {
                     </p>
                     
                     <div className="hero-actions">
-                        <a href="/products" className="hero-primary-btn">
+                        <Link href="/products" className="hero-primary-btn">
                             Explore Products
-                        </a>
+                        </Link>
 
-                        <a href="/offline" className="hero-secondary-btn">
+                        <Link href="/offline" className="hero-secondary-btn">
                             Explore PWA 
-                        </a>
+                        </Link>
                     </div>
 
                     <div className="hero-stats">
