@@ -45,7 +45,7 @@ self.addEventListener("fetch", (event) =>  {
         return;
     }
     if (url.hostname === "cdn.dummyjson.com") {
-        event.responsible(cacheFirst(request));
+        event.respondWith(cacheFirst(request));
         return;
     }
 
