@@ -17,11 +17,11 @@ function Home() {
                     </p>
                     
                     <div className="hero-actions">
-                        <Link href="/products" className="hero-primary-btn">
+                        <Link to="/products" className="hero-primary-btn">
                             Explore Products
                         </Link>
 
-                        <Link href="/offline" className="hero-secondary-btn">
+                        <Link to="/offline" className="hero-secondary-btn">
                             Explore PWA 
                         </Link>
                     </div>
